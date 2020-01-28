@@ -28,16 +28,10 @@ def countdown(int)
   while int > 0
   puts "#{int} SECOND(S)!"
   int -= 1
+  puts "HAPPY NEW YEAR!"
  end
 end
 
-def count_down(num)
-  num = 12
-  until num == 1
-  puts "HAPPY NEW YEAR!"
-  num -= 1
- end
-end
   
 def countdown_with_sleep(num)
   num = 5 
