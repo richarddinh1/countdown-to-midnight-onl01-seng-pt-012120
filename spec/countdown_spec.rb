@@ -32,11 +32,16 @@ def countdown(int)
  end
 end
 
-  
-def countdown_with_sleep(num)
-  num = 5 
-  while num >= 5 
+def countdown(int)
+  while int > 0 
+  int -= 1 
+  puts "HAPPY NEW YEAR!"
+ end
+end
+
+def countdown_with_sleep(int)
+  while int >= 5 
   puts "zzzZZZ"
-  num -= 1 
+  num += 1 
  end
 end
