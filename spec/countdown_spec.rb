@@ -37,7 +37,7 @@ end
 def countdown_with_sleep(int)
   while int >= 5 
   puts "zzzZZZ"
-  sleep(5)
+  sleep(1)
   num -= 1 
  end
 end
