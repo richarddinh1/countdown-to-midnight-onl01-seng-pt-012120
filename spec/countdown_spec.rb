@@ -23,3 +23,27 @@ describe 'LOOPS' do
   end
 
 end
+
+def countdown(integer)
+  num = 0
+  while num < 10
+  puts "#{num} SECOND(S)!"
+  num -= 1
+ end
+end
+
+def count_down(num)
+  num = 12
+  until num == 1
+  puts "HAPPY NEW YEAR!"
+  num -= 1
+ end
+end
+  
+def countdown_with_sleep(num)
+  num = 5 
+  while num >= 5 
+  puts "zzzZZZ"
+  num -= 1 
+ end
+end
