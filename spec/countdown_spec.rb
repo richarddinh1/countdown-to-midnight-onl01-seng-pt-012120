@@ -36,8 +36,9 @@ end
 
 def countdown_with_sleep(int)
   while int >= 5 
-  puts "zzzZZZ"
+  puts "#{int} SECOND(S)!"
   sleep(1)
   num -= 1 
  end
+ "HAPPY NEW YEAR!"
 end
