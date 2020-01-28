@@ -24,11 +24,10 @@ describe 'LOOPS' do
 
 end
 
-def countdown(integer)
-  num = 0
-  while num < 10
-  puts "#{num} SECOND(S)!"
-  num -= 1
+def countdown(int)
+  while int > 0
+  puts "#{int} SECOND(S)!"
+  int -= 1
  end
 end
 
